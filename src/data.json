@@ -1,0 +1,123 @@
+[
+  {
+    "id": 0,
+    "name": "Gaia",
+    "desc": "Cashorra Fofinha",
+    "age": 10,
+    "image": "01.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 1,
+    "name": "Preta",
+    "desc": "Cachorrinha mais linda",
+    "age": 2,
+    "image": "02.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 2,
+    "name": "Tica",
+    "desc": "Gatinha relax",
+    "age": 3,
+    "image": "03.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 3,
+    "name": "José",
+    "desc": "Gatinho meio mal humorado mas de bom coração",
+    "age": 6,
+    "image": "04.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 4,
+    "name": "Ricota",
+    "desc": "Gatinha que ama uum carinho",
+    "age": 5,
+    "image": "05.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 5,
+    "name": "Mel",
+    "desc": "Gatinho levemente assustado",
+    "age": 1,
+    "image": "06.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 6,
+    "name": "Gato",
+    "desc": "Lindo gato chamado Gato",
+    "age": 2,
+    "image": "07.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 7,
+    "name": "Maggie",
+    "desc": "Cachorrinha mais linda do universo",
+    "age": 2,
+    "image": "08.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 8,
+    "name": "Bibi",
+    "desc": "Gatinha super delicada",
+    "age": 2,
+    "image": "09.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 9,
+    "name": "Todynho",
+    "desc": "O que tem de pelo tem de mal humor",
+    "age": 2,
+    "image": "11.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 10,
+    "name": "Chiquinho",
+    "desc": "Gato cachorro, gosta de carinho e vem quando chama",
+    "age": 2,
+    "image": "10.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  }
+]
