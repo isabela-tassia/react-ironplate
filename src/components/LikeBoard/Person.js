@@ -2,7 +2,7 @@ import React from "react";
 import Actions from "./Actions";
 
 const Person = ({ person, modifySuperficialChoices }) => {
-  const { name, birthDate, type, gender, image } = person;
+  const { name, type, gender, image } = person;
 
   return (
     <>
