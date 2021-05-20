@@ -6,17 +6,17 @@ import Superlike from "./actions/SuperLike";
 
 const Actions = ({ person, modifySuperficialChoices }) => (
   <div id="actions">
-    <Rewind userId={person.id} />
+    <Rewind userId={person._id} />
     <Dislike
-      userId={person.id}
+      userId={person._id}
       modifySuperficialChoices={modifySuperficialChoices}
     />
     <Like
-      userId={person.id}
+      userId={person._id}
       modifySuperficialChoices={modifySuperficialChoices}
     />
     <Superlike
-      userId={person.id}
+      userId={person._id}
       modifySuperficialChoices={modifySuperficialChoices}
     />
   </div>
