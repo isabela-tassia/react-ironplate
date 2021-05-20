@@ -2,8 +2,9 @@ import { useState, useEffect, useContext } from "react";
 import { useParams, Link, useHistory } from "react-router-dom";
 import api from "../../apis/api";
 import { AuthContext } from "../../contexts/authContext";
-import Logo from "../../components/LikeBoard/Logo";
 import ConfirmationModal from "../../components/ConfirmationModal";
+import Header from "../../components/LikeBoard/Header";
+import "../DashBoard.css";
 
 function PetDetails() {
   const [state, setState] = useState({
@@ -36,8 +37,9 @@ function PetDetails() {
   }, [id]);
 
   return (
-    <div>
-      <Logo />
+    <div className="app">
+      <Header />
+
       {loggedInUser.user.role === "ADMIN" ? (
         <div className="row d-flex justify-content-end">
           <Link to={`/pet/edit/${id}`} className="btn btn-warning mr-3">
@@ -56,16 +58,16 @@ function PetDetails() {
         alt="pet"
       />
       <div className="card-body">
-        <h4 className="card-title">
+        <h1 className="card-title">
           <small>{state.name}</small>
-        </h4>
+        </h1>
 
-        <h3 className="card-text">{state.type}</h3>
-        <p className="mb-0">
-          <small className="card-text">{state.gender}</small>
+        <h3 className="ml-3 mr-1 mt-2">{state.type}</h3>
+        <p className="ml-2 mr-2 mt-3">
+          <small>{state.gender}</small>
         </p>
 
-        <p className="card-text mb-0 text-truncate">
+        <p className="card-text ml-2 mr-2 mt-3">
           <small>{state.birthDate}</small>
         </p>
       </div>

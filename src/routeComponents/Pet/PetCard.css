@@ -1,7 +1,8 @@
 .product-img {
   height: auto;
-  width: 50px;
+  width: 340px;
   object-fit: cover;
+  margin-top: 170px;
 }
 
 .card-fixed-height {
@@ -17,4 +18,10 @@
 .card-title-fixed-height {
   height: 57px;
   max-height: 57px;
+}
+
+.card-body {
+  display: flex;
+  margin-top: 30%;
+  justify-content: center;
 }

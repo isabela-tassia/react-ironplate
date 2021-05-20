@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import Logo from "../../components/LikeBoard/Logo";
 import api from "../../apis/api";
 import Header from "../../components/LikeBoard/Header";
 import PetForm from "./PetForm";
-import style from "./PetCreate.css";
+import "../DashBoard.css";
 
 function PetCreate() {
   const history = useHistory();
@@ -64,9 +63,9 @@ function PetCreate() {
   }
 
   return (
-    <div>
+    <div className="app">
       <Header />
-      <Logo />
+
       <h1>New Pet </h1>
 
       <hr />

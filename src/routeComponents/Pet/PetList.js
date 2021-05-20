@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import PetCard from "./PetCard";
 import api from "../../apis/api";
-import Logo from "../../components/LikeBoard/Logo";
 import Header from "../../components/LikeBoard/Header";
-
+import "../DashBoard.css";
 function PetList() {
   const [pets, setPets] = useState([]);
 
@@ -21,12 +20,12 @@ function PetList() {
   }, []);
 
   return (
-    <div className="row">
+    <div className="app">
       <Header />
 
       {pets.map((pet) => {
         return (
-          <div key={pet._id} className="col-12 col-sm-4 col-md-3">
+          <div key={pet._id} className="">
             <PetCard pet={pet} />
           </div>
         );

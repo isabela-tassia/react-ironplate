@@ -16,9 +16,9 @@ const Header = () => (
       <Logo />
     </div>
 
-    <div className="fl">
+    <div className="fl ">
       <Link to="/create-pet" type="button">
-        <img src={messages} alt="Create Pet" />
+        <img src={messages} alt="Create Pet" className="mw-100" />
       </Link>
     </div>
   </header>

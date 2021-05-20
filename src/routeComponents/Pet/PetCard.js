@@ -21,19 +21,16 @@ function PetCard(props) {
         </div>
 
         <div className="card-body">
-          <h4
-            title={props.pet.name}
-            className="card-title card-title-fixed-height text-truncate"
-          >
+          <h1 title={props.pet.name}>
             <small>{props.pet.name}</small>
-          </h4>
+          </h1>
 
-          <h3 className="card-text">{props.pet.type}</h3>
-          <p className="mb-0">
-            <small className="card-text">{props.pet.gender}</small>
+          <p className="ml-3 mr-1 mt-3">{props.pet.type}</p>
+          <p className="ml-2 mr-2 mt-3">
+            <small>{props.pet.gender}</small>
           </p>
 
-          <p className="card-text mb-0 text-truncate">
+          <p className="ml-2 mr-2 mt-3">
             <small>{props.pet.birthDate}</small>
           </p>
         </div>

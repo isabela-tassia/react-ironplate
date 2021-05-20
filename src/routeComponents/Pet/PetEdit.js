@@ -3,6 +3,8 @@ import { useParams, useHistory } from "react-router-dom";
 import Logo from "../../components/LikeBoard/Logo";
 import api from "../../apis/api";
 import ProductForm from "./PetForm";
+import Header from "../../components/LikeBoard/Header";
+import "../DashBoard.css";
 
 function PetEdit() {
   const [state, setState] = useState({
@@ -82,7 +84,8 @@ function PetEdit() {
   }
 
   return (
-    <div>
+    <div className="app">
+      <Header />
       <Logo />
       <h1>Edit Pet</h1>
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Logo = () => (
   <div>
     <Link to="/dashboard">
-      <img src={logo} alt="Tinder Logo" />
+      <img src={logo} alt="Tinder Logo" className="w-80" />
     </Link>
   </div>
 );
