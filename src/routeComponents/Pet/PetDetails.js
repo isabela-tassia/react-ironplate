@@ -2,6 +2,7 @@ import { useState, useEffect, useContext } from "react";
 import { useParams, Link, useHistory } from "react-router-dom";
 import api from "../../apis/api";
 import { AuthContext } from "../../contexts/authContext";
+import Logo from "../../components/LikeBoard/Logo";
 import ConfirmationModal from "../../components/ConfirmationModal";
 
 function PetDetails() {
@@ -36,6 +37,7 @@ function PetDetails() {
 
   return (
     <div>
+      <Logo />
       {loggedInUser.user.role === "ADMIN" ? (
         <div className="row d-flex justify-content-end">
           <Link to={`/pet/edit/${id}`} className="btn btn-warning mr-3">

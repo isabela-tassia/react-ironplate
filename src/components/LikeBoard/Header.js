@@ -17,8 +17,8 @@ const Header = () => (
     </div>
 
     <div className="fl">
-      <Link type="button">
-        <img src={messages} alt="View Messages" />
+      <Link to="/create-pet" type="button">
+        <img src={messages} alt="Create Pet" />
       </Link>
     </div>
   </header>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PetCard from "./PetCard";
 import api from "../../apis/api";
-
+import Logo from "../../components/LikeBoard/Logo";
 function PetList() {
   const [pets, setPets] = useState([]);
 
@@ -20,6 +20,7 @@ function PetList() {
 
   return (
     <div className="row">
+      <Logo />
       {pets.map((pet) => {
         return (
           <div key={pet._id} className="col-12 col-sm-4 col-md-3">

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
-
+import Logo from "../../components/LikeBoard/Logo";
 import api from "../../apis/api";
 import ProductForm from "./PetForm";
 
@@ -75,7 +75,7 @@ function PetEdit() {
       console.log(response);
 
       // Redireciona programaticamente para a URL '/'
-      history.push("/");
+      history.push("/my-pets");
     } catch (err) {
       console.error(err);
     }
@@ -83,6 +83,7 @@ function PetEdit() {
 
   return (
     <div>
+      <Logo />
       <h1>Edit Pet</h1>
 
       <hr />

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-
+import Logo from "../../components/LikeBoard/Logo";
 import api from "../../apis/api";
 
 import PetForm from "./PetForm";
@@ -56,7 +56,7 @@ function PetCreate() {
       });
       console.log(response);
       // Redireciona programaticamente para a URL '/'
-      history.push("/");
+      history.push("/my-pets");
     } catch (err) {
       console.error(err);
     }
@@ -64,6 +64,7 @@ function PetCreate() {
 
   return (
     <div>
+      <Logo />
       <h1>New Pet </h1>
 
       <hr />

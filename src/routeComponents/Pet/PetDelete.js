@@ -12,7 +12,7 @@ function PetDelete() {
       try {
         const response = await api.delete(`/pet/${id}`);
         console.log(response);
-        history.push("/");
+        history.push("/my-pets");
       } catch (err) {
         console.error(err);
       }
