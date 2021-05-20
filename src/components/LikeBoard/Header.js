@@ -3,10 +3,11 @@ import Logo from "./Logo";
 import { Link } from "react-router-dom";
 import user from "../../assets/images/misc/user.png";
 import messages from "../../assets/images/misc/messages.png";
+
 const Header = () => (
   <header>
     <div className="fl">
-      <Link type="button">
+      <Link type="button" to="/my-pets">
         <img src={user} alt="User Settings" />
       </Link>
     </div>
